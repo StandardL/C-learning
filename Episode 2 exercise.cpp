@@ -34,6 +34,7 @@ int lenth(int sts)//函数定义
 }*/
 
 
+/*3
 void mice();
 void run();
 int main()
@@ -57,3 +58,88 @@ void run()
 {
     cout << "See how they run." << endl;
 }
+*/
+
+
+/*4
+int age(int);
+int main()
+{
+    int AGE,months;
+    cout << "Enter your age:" ;
+    cin >> AGE ;
+    months = age(AGE);
+    cout << "You have pass " << months << " months."<< endl;
+    system ("pause");
+    return 0;
+}
+int age(int sts)
+{
+    return 12*sts;
+}
+*/
+
+
+/*5
+double c(double);
+int main()
+{
+    double C;
+    cout << "Please enter a Celsius value: " ;
+    cin >> C;
+    double F = c(C);
+    cout << C << " degrees Celsius is " << F << " degrees Fahreheit." << endl;
+    cout << "Thank you for using this C++ programme." << endl;
+    system ("pause");
+    return 0;
+}
+double c(double sts)
+{
+    double f = 1.8*sts + 32.0;
+    return f;
+}
+*/
+
+
+/*6
+double lightyear(double);
+int main()
+{
+    double ly;
+    cout << "Enter the number of light years: " ;
+    cin >> ly;
+    double au = lightyear(ly);
+    cout << ly << " light years = " << au << " astronomical units." << endl;
+    system ("pause");
+    return 0;
+}
+double lightyear(double sts)
+{
+    double au = 63240*sts;
+    return au;
+}
+*/
+
+
+//7
+void time(int);
+int main()
+{
+    int h,m;
+    cout << "Enter the number of hours: " ;
+    cin >> h;
+    cout << "Enter the number of minutes: " ;
+    cin >> m;
+    cout << "Time: ";
+    time(h);
+    cout << ":";
+    time(m);
+    system ("pause");
+    return 0;
+}
+void time(int sts)
+{
+    cout << sts ;
+}
+
+//至此，第二章的编程练习全部完成。
