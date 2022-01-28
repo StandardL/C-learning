@@ -1,0 +1,5 @@
+﻿  func.cpp
+C:\Users\82135\source\repos\Shape 继承类练习\Shape 继承类练习\func.cpp(21,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\82135\source\repos\Shape 继承类练习\Shape 继承类练习\func.cpp(38,8): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+C:\Users\82135\source\repos\Shape 继承类练习\Shape 继承类练习\func.cpp(66,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  Shape 继承类练习.vcxproj -> C:\Users\82135\source\repos\Shape 继承类练习\Debug\Shape 继承类练习.exe
